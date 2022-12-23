@@ -38,10 +38,10 @@ const getEditCatFormHtml = () =>
     `                <p>Редактировать кота</p>
 <form id="form_edit" name="createCatForm">
     <label for="id">ID кота</label>
-    <input required type="number" placeholder="ID кота" name="id">
+    <input readonly required type="number" placeholder="ID кота" name="id">
 
     <label for="name">Имя кота</label>
-    <input required type="text" placeholder="Имя кота" name="name">
+    <input readonly required type="text" placeholder="Имя кота" name="name">
 
     <label for="rate">Рейтинг кота</label>
     <input type="number" placeholder="Введите число от 0 до 10" name="rate" min="0" max="10">
